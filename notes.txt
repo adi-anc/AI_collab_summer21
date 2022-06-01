@@ -1,0 +1,8 @@
+What I did to fix it.
+
+1. Used the code from viewerexample.html
+2. Added in any missing files and made sure they were pointing to the correct location in the html 
+3. There was a problem when loading an image, it wouldn't run. Error was something like "uncaught in promise". Was saying there was an error in the the bisweb.js file. 
+4. To fix this, uninstalled biswebbrowser, uninstalled Jquery, uninstall Three.js. Reininstalled everything, added Jqueury 3.3.1, biswebbrowser "latest", and three 0.100.0. It worked after that. I think the problem was a wrong version of Three.js or Jquery.
+
+To run, in console type 'gulp webserver'
